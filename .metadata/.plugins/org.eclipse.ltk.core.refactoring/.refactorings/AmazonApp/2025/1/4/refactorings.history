@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Sample.java&apos; to &apos;AmazonApp/src/exceptions&apos;&#x0D;&#x0A;- Original project: &apos;AmazonApp&apos;&#x0D;&#x0A;- Destination element: &apos;AmazonApp/src/exceptions&apos;&#x0D;&#x0A;- Original element: &apos;exceptions.Sample.java&apos;" description="Copy compilation unit" destination="/src&lt;exceptions" element1="/src&lt;exceptions{Sample.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1737434848684" units="1" version="1.0"/>
+</session>

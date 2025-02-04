@@ -1,0 +1,8 @@
+package com.example;
+
+public class FindAverage {
+	public float student(int a,int b, int c) {
+		
+	}
+
+}

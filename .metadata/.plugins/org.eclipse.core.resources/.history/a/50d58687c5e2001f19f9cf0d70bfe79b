@@ -1,0 +1,7 @@
+package com.example;
+
+public class Connection {
+	public boolean doconnection(String root,String password,String url) {
+		
+	}
+}

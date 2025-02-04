@@ -1,0 +1,10 @@
+package com.example;
+
+public class MyUnitTest {
+	public void test1()
+	{	
+		Calculator cal = new Calculator();
+		assert.equals(5);
+	}
+
+}

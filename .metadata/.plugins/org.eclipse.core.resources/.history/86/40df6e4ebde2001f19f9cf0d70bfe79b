@@ -1,0 +1,9 @@
+package com.example;
+
+public class MyUnitTest {
+	public void test1()
+	{
+		assert.equals(5,)
+	}
+
+}

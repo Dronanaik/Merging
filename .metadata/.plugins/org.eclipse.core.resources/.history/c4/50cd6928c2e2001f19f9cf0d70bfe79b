@@ -1,0 +1,11 @@
+package com.example;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+public class AverageTest {
+	@Test
+	public void std1(int a,int b, int c) {
+		FindAverage f1 = new FindAverage();
+		assertEquals(,f1.student(1,2,3));
+	}
+}

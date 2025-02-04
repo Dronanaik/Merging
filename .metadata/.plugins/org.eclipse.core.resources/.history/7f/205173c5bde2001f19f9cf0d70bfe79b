@@ -1,0 +1,13 @@
+package com.example;
+
+import static org.junit.Assert.assertEquals;
+
+public class MyUnitTest {
+	@Test
+	public void test1()
+	{	
+		Calculator cal = new Calculator();
+		assertEquals(5,cal.findBig(5, 3));
+	}
+
+}

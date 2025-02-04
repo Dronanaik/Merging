@@ -1,0 +1,22 @@
+package com.example;
+
+import static org.junit.Assert.assertEquals;
+
+
+import org.junit.Test;
+
+public class MyConnectionTest {
+	
+	@Test
+	public  void doconnection1() {
+		// TODO Auto-generated method stub
+		try {
+		String username = "root";
+        String password = "pass@word1";
+        String url = "jdbc:mysql://localhost:3306/kpmg";
+        Connect c = new Connect();
+        assertEquals(true,c.doconnection(url, username, password));
+	}
+		
+
+}

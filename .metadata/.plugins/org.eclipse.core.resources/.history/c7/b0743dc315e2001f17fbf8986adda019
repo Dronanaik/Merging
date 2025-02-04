@@ -1,0 +1,25 @@
+package Test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConnectionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			String username = "root";
+			String password = "pass@word1";
+			String url = "jdbc:mysql://localhost:3306/kpmg";
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection(username,password,url);
+			System.out.println("Connection Successful");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

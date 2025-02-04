@@ -1,0 +1,27 @@
+package Test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class InsertExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			
+			con = DriverManager.getConnection(url,username,password);
+			System.out.println("Connection Successful");
+			String query = "Select * from customer";
+			Statement s1 = con.createStatement();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package Test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConnectionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection con = DriverManager.getConnection(null)
+
+	}
+
+}
